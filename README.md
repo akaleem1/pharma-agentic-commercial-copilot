@@ -43,7 +43,7 @@ This system incorporates:
 - Prompt role separation  
 - Structured outputs for compliance workflows  
 
-### 5️⃣ Future Enhancements
+Future Enhancements
 
 - Azure deployment with managed identity  
 - Pinecone or Azure AI Search integration  
