@@ -16,16 +16,14 @@ The following components are fully functional and tested:
 - **Retriever interface** using LangChain’s unified `.invoke()` API
 
 
-## 🧠 Enterprise Framing (Critical for Pharma Roles)
-
-### 1️⃣ Business Problem
+Business Problem
 Commercial organizations in pharma require rapid synthesis of clinical evidence, market dynamics, and regulatory risks. Manual workflows delay decision-making and reduce the ability to respond to emerging safety signals or competitive threats.
 
-### 2️⃣ Architecture Overview
+Architecture Overview
 User → Streamlit UI → FastAPI → Orchestrator → Agents
 → RAG Retriever → FAISS Vector Store → OpenAI Models → Response
 
-### 3️⃣ Tech Stack
+Tech Stack
 
 - LangChain (agents, prompts, orchestration)
 - FAISS (vector DB)
@@ -35,7 +33,7 @@ User → Streamlit UI → FastAPI → Orchestrator → Agents
 - Modular multi-agent design (research, commercial, risk)
 
 
-### 4️⃣ Responsible AI & Governance
+Responsible AI & Governance
 
 This system incorporates:
 
@@ -45,7 +43,7 @@ This system incorporates:
 - Prompt role separation  
 - Structured outputs for compliance workflows  
 
-### 5️⃣ Future Enhancements (Enterprise Thinking)
+### 5️⃣ Future Enhancements
 
 - Azure deployment with managed identity  
 - Pinecone or Azure AI Search integration  
